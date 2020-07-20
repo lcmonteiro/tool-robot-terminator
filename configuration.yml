@@ -1,0 +1,15 @@
+missions:
+  list:
+    script: ls $opts $path
+    context:
+      path:  .
+      opts:  -aaa
+  test:
+    script:
+      - execute: rm ./aaa
+        retries: 2
+        require: True
+      - ls .
+    context:
+      path:  .
+      opts:  -aaa

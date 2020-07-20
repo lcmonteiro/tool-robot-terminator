@@ -1,0 +1,8 @@
+# folders 
+terminator.egg-info/*
+build/*
+data/*
+# files
+*.egg
+*.pyc
+*.log
