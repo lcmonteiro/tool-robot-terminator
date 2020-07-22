@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation     Commander Keywords
-Library           Remote    ${terminator}    WITH NAME    terminator
+Library           Remote    ${terminator_host}    WITH NAME    terminator
 
 *** Keywords ***
 
