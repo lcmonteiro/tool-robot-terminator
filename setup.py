@@ -27,7 +27,7 @@ setup(
     ],
     install_requires=[
         # framework
-        'robotworker @ git+https://nearshore.altran.pt/git/altran_v_v/robot-libraries/robotworker.git',
+        'robotworker @ git+https://github.com/lcmonteiro/tool-robot-worker.git',
         # community
         'gitpython',
         'parse'
